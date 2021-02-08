@@ -9,11 +9,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var count_label: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
     }
 
-
+    @IBAction func plus(_ sender: Any) {
+    }
+    
+    @IBAction func minas(_ sender: Any) {
+    }
+    
 }
 
